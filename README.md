@@ -23,7 +23,7 @@ I'm passionate about software development, open source, and building useful tool
 - Machine Learning Concepts
 
 ## 📫 How to reach me
-- Email: your-email@example.com
+- Email: your-ajith14may@gmail.com
 - LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/ajith-joy-78323827b)
 
 ---
