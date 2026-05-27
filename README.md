@@ -315,8 +315,8 @@ My favourite project — and the most humbling. A **working prototype** that aut
 <div align="center">
 
 <!-- STATS CARD — using githubstats.me (reliable, no rate limits) -->
-<img src="https://github-stats.as93.net/A-jith-u?color=6C63FF&bg=0D1117&hide_border=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=A-jith-u&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=ffffff&border_radius=10&cache_seconds=1800" width="49%"/>
+<!--<img src="https://github-stats.as93.net/A-jith-u?color=6C63FF&bg=0D1117&hide_border=true" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=A-jith-u&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=ffffff&border_radius=10&cache_seconds=1800" width="49%"/>-->
 
 <br/><br/>
 
