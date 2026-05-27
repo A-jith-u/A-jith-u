@@ -358,7 +358,7 @@ My favourite project — and the most humbling. A **working prototype** that aut
  <img src="https://raw.githubusercontent.com/A-jith-u/A-jith-u/output/github-contribution-grid-snake.svg" alt="Snake animation"/> 
 
 <!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=A-jith-u&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=ffffff&area=true&area_color=6C63FF" width="100%"/>
+<img src="https://raw.githubusercontent.com/A-jith-u/A-jith-u/output/github-contribution-grid-snake-dark.svg" alt="🐍 contribution snake" width="98%"/>
 
 </div>
 
