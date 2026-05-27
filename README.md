@@ -314,28 +314,38 @@ My favourite project — and the most humbling. A **working prototype** that aut
 
 <div align="center">
 
-<!-- STATS + LANGUAGES side by side -->
-<img src="https://github-readme-stats.vercel.app/api?username=A-jith-u&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=ffffff&border_radius=10" height="180"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=A-jith-u&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=ffffff&border_radius=10" height="180"/>
+<!-- STATS CARD — using githubstats.me (reliable, no rate limits) -->
+<img src="https://github-stats.as93.net/A-jith-u?color=6C63FF&bg=0D1117&hide_border=true" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=A-jith-u&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=ffffff&border_radius=10&cache_seconds=1800" width="49%"/>
 
 <br/><br/>
 
-<!-- ANIMATED STREAK STATS -->
-<img src="https://streak-stats.demolab.com?user=A-jith-u&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF&sideLabels=888888&dates=888888&border_radius=10" height="180"/>
+<!-- STREAK STATS — demolab is reliable -->
+<img src="https://streak-stats.demolab.com?user=A-jith-u&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF&sideLabels=888888&dates=888888&border_radius=10" width="98%"/>
 
 <br/><br/>
 
-<!-- ANIMATED CONTRIBUTION SNAKE -->
-<!-- 
-  ⚡ TO ENABLE THE SNAKE ANIMATION:
-  1. Go to your A-jith-u/A-jith-u repo → Actions
-  2. Create a new workflow file: .github/workflows/snake.yml
-  3. Paste this workflow:
+<!-- ACTIVITY GRAPH — vercel hosted, reliable -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=A-jith-u&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=ffffff&area=true&area_color=6C63FF" width="98%"/>
 
+<br/><br/>
+
+<!-- SNAKE — needs one-time GitHub Actions setup. Instructions below. -->
+<!--
+  ════════════════════════════════════════════════════
+  🐍 ENABLE THE CONTRIBUTION SNAKE (one-time setup):
+  ════════════════════════════════════════════════════
+  1. In your A-jith-u/A-jith-u repo, go to:
+     Settings → Actions → General → set "Workflow permissions" to Read & Write
+
+  2. Create file: .github/workflows/snake.yml
+     Paste this content:
+
+  ---
   name: Generate Snake
   on:
-    schedule: [{ cron: "0 0 * * *" }]
+    schedule:
+      - cron: "0 0 * * *"
     workflow_dispatch:
   jobs:
     generate:
@@ -344,21 +354,21 @@ My favourite project — and the most humbling. A **working prototype** that aut
         - uses: Platane/snk@v3
           with:
             github_user_name: A-jith-u
-            outputs: dist/github-contribution-grid-snake.svg
-
+            outputs: |
+              dist/github-contribution-grid-snake.svg
+              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         - uses: crazy-max/ghaction-github-pages@v3
           with:
             target_branch: output
             build_dir: dist
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ---
 
-  Then uncomment the line below:
+  3. Run the workflow manually once from the Actions tab.
+  4. Then uncomment the <img> line below:
 -->
- <img src="https://raw.githubusercontent.com/A-jith-u/A-jith-u/output/github-contribution-grid-snake.svg" alt="Snake animation"/> 
-
-<!-- ACTIVITY GRAPH -->
-<img src="https://raw.githubusercontent.com/A-jith-u/A-jith-u/output/github-contribution-grid-snake-dark.svg" alt="🐍 contribution snake" width="98%"/>
+ <img src="https://raw.githubusercontent.com/A-jith-u/A-jith-u/output/github-contribution-grid-snake-dark.svg" alt="🐍 contribution snake" width="98%"/> 
 
 </div>
 
@@ -380,6 +390,6 @@ My favourite project — and the most humbling. A **working prototype** that aut
 
 <br/>
 
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+![footer](https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer)
 
 </div>
